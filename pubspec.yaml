@@ -1,7 +1,7 @@
 name: pget
 description: "A new command line tool for backup package versions and path"
 version: 0.0.1
-homepage:
+repository: https://github.com/bikram0000/pget.git
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
