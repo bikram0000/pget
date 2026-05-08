@@ -1,8 +1,7 @@
 library pget;
+
 import 'package:logger/logger.dart';
 import 'package:pget/package_get.dart' as package_get;
-
-
 
 /// Command line entry point to configure package details.
 ///

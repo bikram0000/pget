@@ -275,12 +275,12 @@ Future<void> _initializePackageGet() async {
         'dependency_overrides': {}
       };
       list.forEach((e, value) {
-        if(pubspecData[e] !=null){
-        (pubspecData[e] as Map).forEach((key, v) {
-          if ((v is Map) && v.containsKey('path')) {
-            list[e][key] = v;
-          }
-        });
+        if (pubspecData[e] != null) {
+          (pubspecData[e] as Map).forEach((key, v) {
+            if ((v is Map) && v.containsKey('path')) {
+              list[e][key] = v;
+            }
+          });
         }
       });
 
